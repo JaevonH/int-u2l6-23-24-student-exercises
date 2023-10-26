@@ -1,9 +1,16 @@
 /* CSS styling for code along */
 /* 1. Add a 5px, black, solid border to the div element with the class "header". */
-
-
+    .header{
+      border: 5px solid black;
+    }
+      
+    
 /* 2. Add a 5px, solid, yellow border to each individual image. */
-
+    .brown{
+    border: 5px solid yellow;
+    padding: 5px;
+    margin: 5px;
+  }
 
 /* 3. Add 5px of padding to each individual image. */
 
@@ -24,7 +31,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
-    background-color: #f5c842;
+    background-color:#f5c842;
 }
 
 h1 {
